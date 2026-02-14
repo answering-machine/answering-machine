@@ -2,7 +2,7 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "machine-name"
+name = "answering-machine"
 version = "0.0.1"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
@@ -16,7 +16,7 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["machine-name"]
+keywords = ["answering-machine"]
 
 dependencies = [
     "electroid >= 0.0.16",
@@ -28,8 +28,8 @@ dependencies = [
 ]
 
 [project.scripts]
-machine-name = "machine_name.cli:main"
+answering-machine = "answering_machine.cli:main"
 
 [project.urls]
-"Homepage" = "https://github.com/org_name/machine_name"
-"Bug Tracker" = "https://github.com/org_name/machine_name/issues"
+"Homepage" = "https://github.com/org_name/answering_machine"
+"Bug Tracker" = "https://github.com/org_name/answering_machine/issues"

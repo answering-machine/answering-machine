@@ -1,14 +1,14 @@
-# Machine name
-Machine Name
+# Answering Machine
+A machine that answers questions.
 <pre>
-  pip install machine-name
+  pip install answering-machine
 </pre>
 Then:
 ```Python
   # Python
-  import machine_name
+  import answering_machine
 ```
 Or:
 <pre>
-  uvx machine-name [ARGUMENT] [OPTION]
+  uvx answering-machine [ARGUMENT] [OPTION]
 </pre>
