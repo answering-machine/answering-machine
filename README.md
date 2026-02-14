@@ -9,6 +9,10 @@ Then:
   import answering_machine
 ```
 Or:
-<pre>
-  uvx answering-machine [ARGUMENT] [OPTION]
-</pre>
+```bash
+  echo '[{"role": "user", "content": "I have a question..."}]' | \
+  uvx answering-machine \
+    --PROVIDER_API_KEY=sk-ant-api... \
+    --GITHUB_TOKEN=ghp_... \
+    --mode=single
+```
